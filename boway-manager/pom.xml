@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.alone</groupId>
+    <artifactId>boway-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.alone</groupId>
+  <artifactId>boway-manager</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>boway-manager-pojo</module>
+  	<module>boway-manager-dao</module>
+  	<module>boway-manager-service</module>
+  	<module>boway-manager-code</module>
+  	<module>boway-manager-web</module>
+  </modules>
+</project>
